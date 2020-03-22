@@ -36,7 +36,8 @@ mb.display.show(mb.Image.HEART)  # Display Heart while logging
 
 while not mb.button_a.is_pressed():
 
-#This while loop sends acceleration data to the reciever microbit every 5 milliseconds and the data is sent as a string.
+#This while loop sends acceleration data to the reciever microbit every 5 milliseconds. 
+#The data is sent to the reciever as strings separated by commas.
 
     mb.sleep(5)
     time1 = mb.running_time() #get the current running time
