@@ -5,7 +5,7 @@
 #*****************************************
 # YOUR NAME: Ethan Donnelly/Joshua Balbi
 # NUMBER OF HOURS TO COMPLETE: 2.5
-# YOUR COLLABORATION STATEMENT(s): I worked with Joshua Balbi on this assignment.
+# YOUR COLLABORATION STATEMENT(s): Ethan Donnelly and Joshua Balbi.
 #
 #
 #*****************************************
