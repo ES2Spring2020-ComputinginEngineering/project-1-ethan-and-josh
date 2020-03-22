@@ -20,6 +20,8 @@ def create_array(name):
 #    for line in fin:
  #       line = line.replace(",", "")
   #      fout.write(line)
+    my_list=
+    my_array= np.array(my_list)
     fin.close()
     fout.close()
     
@@ -27,6 +29,7 @@ def create_array(name):
     print(array)
     new_array = array[0,0]
     print(new_array)
+  
                          
 create_array("12inch.csv")
 
