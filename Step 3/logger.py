@@ -17,6 +17,8 @@ import radio  # Needs to be imported separately
 radio.on()  # Turn on radio
 radio.config(channel=71, length=100)
 
+#We ran into trouble with the reciever so we decided to try a channel that would likely have no one else on it.
+
 print('Program Started')
 mb.display.show(mb.Image.HAPPY, delay=1000, clear=True)
 
