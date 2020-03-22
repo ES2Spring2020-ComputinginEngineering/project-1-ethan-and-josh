@@ -1,3 +1,15 @@
+# Project 1 --- ES2
+# Microbit Logger
+
+# FILL THESE COMMENTS IN
+#*****************************************
+# YOUR NAME: Ethan Donnelly/Joshua Balbi
+# NUMBER OF HOURS TO COMPLETE: 6
+# YOUR COLLABORATION STATEMENT(s): Ethan Donnelly and Joshua Balbi.
+#
+#
+#*****************************************
+
 import os
 import matplotlib.pyplot as plt
 import numpy as np
