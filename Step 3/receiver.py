@@ -1,7 +1,14 @@
-##################
-# FILL IN HEADER
-#################
+# Project 1 --- ES2
+# Microbit Reciever
 
+# FILL THESE COMMENTS IN
+#*****************************************
+# YOUR NAME: Ethan Donnelly/Joshua Balbi
+# NUMBER OF HOURS TO COMPLETE: 1
+# YOUR COLLABORATION STATEMENT(s): Ethan Donnelly and Joshua Balbi.
+#
+#
+#*****************************************
 import microbit as mb
 
 import radio  # Needs to be imported separately
@@ -22,6 +29,8 @@ while not incoming == 'start':
 
 
 while True:
+   
+#This while statement shows a heart while the code is running and data is being recieved from the logger.
     incoming = radio.receive()  # Read from radio
 
     if incoming is not None:  # message was received
