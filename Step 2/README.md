@@ -13,24 +13,21 @@
 import numpy as np
 
 import matplotlib.pyplot as plt
+g=9.81
+length=[0.305,0.3429,0.381,0.4191,0.4572]
 
-def theory(l):
-
-#def_theory is a function that has the parameter 1.
-#It uses an equation to find a value.
-#The return value is the result of .4572 plugged into the equation.
-
-    return((2*np.pi)*np.sqrt(l/9.81))
-    
-print(theory(0.4572))
+def theory():
+    n=[]
+    for i in range(0,5):
+        a=((2*np.pi)*np.sqrt(l[i]/g))
+        n.append(a)
+    return n
 
 
-plt.plot([0.305,0.3429,0.381,0.4191,0.4572],[theory(0.305),theory(0.3429),theory(0.381),theory(0.4191),theory(0.4572)])
+print(theory())
+plt.plot([0.305,0.3429,0.381,0.4191,0.4572],theory())
 plt.axis([.25,.55,1,1.5])
+plt.xlabel('lenght')
+plt.ylabel('period')
+plt.title('Length vs. Period theoretical', fontdict=None, loc='center')
 
-
-0.305
-0.3429
-0.381
-0.4191
-0.4572
