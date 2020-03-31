@@ -17,6 +17,11 @@ g=9.81
 length=[0.305,0.3429,0.381,0.4191,0.4572]
 
 def theory():
+
+#theory is a function with no parameters.
+#It solves for a list of the periods at each time.
+#THe return value is a list of periods at their given times.
+
     n=[]
     for i in range(0,5):
         a=((2*np.pi)*np.sqrt(l[i]/g))
